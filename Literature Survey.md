@@ -17,4 +17,4 @@
 | **Methodology Used:** |
 | The paper proposes a custom social media platform that performs sentiment analysis on all the activities of the users in a group and creates a report according to their reactions and their posts on the platform. Every activity is rated based on the sentiments behind it on a scale of −1 and +1, 0 is a neutral sentiment. |
 ||
-| **Advantages: ** |
+| **Advantages:** |
