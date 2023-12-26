@@ -1,1 +1,1 @@
-# Talent_Battle_Internship-Data-Science_AI_and_ML
+# Talent Battle Internship - Data-Science, AI, and ML
