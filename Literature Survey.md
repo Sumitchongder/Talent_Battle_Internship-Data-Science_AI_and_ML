@@ -286,3 +286,28 @@ TNet - Transformation network. |
 | 1. The paper does not explicitly mention any disadvantages of the methodology used. However, one potential disadvantage could be that fine-tuning BERT models requires significant computational resources and time. Additionally, handling unbalanced datasets can be challenging and may not always result in optimal performance. |
 | 2. Handling multimodal data, especially with layout information, might introduce complexities in data preprocessing and model training. |
 | 3. The use of attention mechanisms and complex neural network architectures may pose challenges in interpreting the model's decisions and understanding the features contributing to sentiment predictions. |
+
+### Research Paper 10: 
+
+| **Title of Paper:** Role of sentiment analysis in social media security and analytics |
+| --- |
+| **Name of Authors:** | 
+| 1. Sanur Sharma |
+| 2. Anurag Jain |
+||
+| **Year of Publication:** |
+| 2020 |
+||
+| **Algorithm Used:** |
+| The paper discusses various sentiment analysis algorithms and methodologies relevant to social media security and analytics. Common algorithms in sentiment analysis include traditional machine learning approaches like Support Vector Machines (SVM), Naive Bayes, and more recent deep learning models such as BERT and LSTM. |
+||
+| **Methodology Used:** |
+| The paper presents the social media analytics, issues and challenges that arise in social media. It discusses the process of acquiring data from social media over time, as well as the detection of similarities based on similar choices made by people on social media. |
+||
+| **Advantages:** |
+| 1. Sentiment analysis can contribute to social media security by identifying and flagging potentially harmful or malicious content. The methodology proposes strategies for leveraging sentiment analysis to enhance security measures, such as detecting cyber threats or identifying harmful sentiments. |
+| 2. Understanding sentiments on social media platforms can aid in analytics and decision-making processes. The paper highlights how sentiment analysis provides valuable insights into user opinions, trends, and public sentiment, facilitating informed decision-making for businesses or authorities. |
+||
+| **Disadvantages:** |
+| 1. One potential disadvantage could be the challenges that arise in social media analytics, such as the vulnerability of social media due to its nature and the amount of content it contains. |
+| 2. The methodology might touch upon ethical considerations related to sentiment analysis, such as potential biases in the training data or the impact of sentiment analysis on user privacy. Ethical challenges in deploying sentiment analysis tools for security and analytics purposes may be discussed. |
