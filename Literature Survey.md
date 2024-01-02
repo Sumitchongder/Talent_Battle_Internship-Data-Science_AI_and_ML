@@ -195,3 +195,32 @@ TNet - Transformation network. |
 | **Disadvantages:** |
 | 1. Manual or automated labelling of tweets for sentiment analysis can be challenging, and biases may be introduced during the labelling process. |
 | 2. While the dataset may be comprehensive, it might have limitations in terms of generalizability to diverse populations or specific linguistic nuances. |
+
+### Research Paper 7: 
+
+| **Title of Paper:** Cross-Cultural Polarity and Emotion Detection Using Sentiment Analysis and Deep Learning on COVID-19 Related Tweets |
+| --- |
+| **Name of Authors:** | 
+| 1. Ali Shariq Imran |
+| 2. Sher Muhammad Daudpota |
+| 3. Zenun Kastrati |
+| 4. Rakhi Bhatra |
+||
+| **Year of Publication:** |
+| 2020 |
+||
+| **Algorithm Used:** |
+| The paper likely utilizes sentiment analysis techniques and deep learning models for cross-cultural polarity and emotion detection on COVID-19-related tweets. While specific algorithms are not mentioned, the technical part may involve the application of deep neural networks, natural language processing (NLP), and sentiment analysis algorithms like Long Short-Term Memory (LSTM) models for estimating the sentiment polarity and emotions from the extracted tweets. |
+||
+| **Methodology Used:** |
+| The authors trained their models to achieve state-of-the-art accuracy on the sentiment140 dataset. They used emoticons in a unique and novel way to validate the supervised deep-learning models on tweets extracted from Twitter. |
+| The purpose of this study was to analyze the reaction of citizens from different cultures to the novel Coronavirus and people’s sentiments about subsequent actions taken by different countries. The study detected and analyzed sentiment polarity and emotions demonstrated during the initial phase of the pandemic and the lockdown period employing natural language processing (NLP) and deep learning techniques on Twitter posts. |
+||
+| **Advantages:** |
+| 1. The methodology's incorporation of cross-cultural analysis ensures that the sentiment analysis models are sensitive to cultural variations, contributing to improved accuracy and relevance. |
+| 2. Leveraging deep learning models allows for a more nuanced understanding of sentiments and emotions in COVID-19 related tweets, capturing complex patterns and relationships. |
+||
+| **Disadvantages:** |
+| 1. The effectiveness of sentiment analysis models depends on the representativity of the training data. If the dataset is biased or not representative of diverse cultural perspectives, the model's performance may be compromised. |
+| 2. Deep learning models can be challenging to interpret, making it difficult to understand the exact features driving the sentiment analysis predictions, especially in cross-cultural contexts. |
+
