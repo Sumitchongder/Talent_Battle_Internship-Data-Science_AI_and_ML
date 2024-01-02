@@ -164,7 +164,34 @@ TNet - Transformation network. |
 | **Advantages:** |
 | 1. The context-aware approach is likely to enhance sentiment analysis accuracy by considering the surrounding context of social media posts. This is particularly beneficial for understanding nuanced sentiments. |
 | 2. The inclusion of user interactions and historical context provides a more nuanced understanding of individual users' sentiments, contributing to more personalized sentiment analysis. |
+
+### Research Paper 6: 
+
+| **Title of Paper:** COVIDSenti: A Large-Scale Benchmark Twitter Data Set for COVID-19 Sentiment Analysis |
+| --- |
+| **Name of Authors:** | 
+| 1. Usman Naseem |
+| 2. Imran Razzak |
+| 3. Matloob Khushi |
+| 4. Peter W. Eklund |
+| 5. Jinman Kim |
+||
+| **Year of Publication:** |
+| 2021 |
+||
+| **Algorithm Used:** |
+| The paper focuses on providing a benchmark dataset for COVID-19 sentiment analysis on Twitter. While specific algorithms are not mentioned, the technical part likely involves the creation and curation of the dataset. The sentiment analysis itself may involve a range of techniques, including traditional machine learning approaches (e.g., SVM, Naive Bayes) or more advanced deep learning methods. |
+||
+| **Methodology Used:** |
+| 1. Data Collection: Gathering a large-scale Twitter dataset specifically related to COVID-19, capturing a diverse range of sentiments expressed during the pandemic. |
+| 2. Data Labeling: Manual or automated labelling of tweets for sentiment analysis, classifying them such as positive, negative, or neutral. |
+| 3. Benchmark Creation: Establishing a benchmark dataset that researchers can use to evaluate and compare the performance of various sentiment analysis models on COVID-19-related Twitter data. |
+| 4. Evaluation Metrics: Defining metrics for evaluating the performance of sentiment analysis models, such as accuracy, precision, recall, and F1-score. |
+||
+| **Advantages:** |
+| 1. COVIDSenti provides a valuable resource for researchers and practitioners working on sentiment analysis related to the COVID-19 pandemic, facilitating the development and evaluation of sentiment analysis models in this context. |
+| 2. The large-scale nature of the dataset likely captures a diverse range of sentiments expressed by users on Twitter during the pandemic, contributing to a more nuanced understanding of public sentiment. |
 ||
 | **Disadvantages:** |
-| 1. Identifying and extracting relevant contextual information from social media data can be challenging, especially given the unstructured and noisy nature of user-generated content. |
-| 2. Depending on the complexity of the context-aware models used, there might be increased computational demands, potentially limiting scalability. |
+| 1. Manual or automated labelling of tweets for sentiment analysis can be challenging, and biases may be introduced during the labelling process. |
+| 2. While the dataset may be comprehensive, it might have limitations in terms of generalizability to diverse populations or specific linguistic nuances. |
