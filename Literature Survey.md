@@ -311,3 +311,29 @@ TNet - Transformation network. |
 | **Disadvantages:** |
 | 1. One potential disadvantage could be the challenges that arise in social media analytics, such as the vulnerability of social media due to its nature and the amount of content it contains. |
 | 2. The methodology might touch upon ethical considerations related to sentiment analysis, such as potential biases in the training data or the impact of sentiment analysis on user privacy. Ethical challenges in deploying sentiment analysis tools for security and analytics purposes may be discussed. |
+
+### Research Paper 11: 
+
+| **Title of Paper:** SAKG-BERT: Enabling Language Representation With Knowledge Graphs for Chinese Sentiment Analysis |
+| --- |
+| **Name of Authors:** | 
+| 1. XIAOYAN YAN |
+| 2. FANGHONG JIAN |
+| 3. BO SUN |
+||
+| **Year of Publication:** |
+| 2021 |
+||
+| **Algorithm Used:** |
+| The paper introduces SAKG-BERT, suggesting the incorporation of Knowledge Graphs into BERT for Chinese sentiment analysis. The technical part likely involves the utilization of pre-trained BERT models and the integration of knowledge graphs to enhance language representation. |
+||
+| **Methodology Used:** |
+| The authors proposed a SAKG-BERT model that combines sentiment analysis knowledge and the language representation model BERT. To improve the interpretability of the deep learning algorithm, they constructed a SAKG in which triples are injected into sentences as domain knowledge. |
+||
+| **Advantages:** |
+| 1. The incorporation of knowledge graphs enhances the contextual understanding of the input text, allowing the model to capture more nuanced relationships and entities relevant to sentiment analysis. |
+| 2. Tailoring the methodology for Chinese sentiment analysis addresses the unique linguistic characteristics of Chinese, potentially resulting in improved language representations compared to generic models. |
+||
+| **Disadvantages:** |
+| 1. The effectiveness of SAKG-BERT may depend on the availability and quality of the knowledge graph used. If the knowledge graph lacks coverage or contains inaccuracies, it could impact the model's performance. |
+| 2. Integrating knowledge graphs into BERT may introduce additional computational complexity, potentially requiring substantial resources for training and inference. |
