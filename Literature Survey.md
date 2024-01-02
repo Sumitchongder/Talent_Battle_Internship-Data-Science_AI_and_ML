@@ -135,3 +135,36 @@ TNet - Transformation network. |
 | **Disadvantages:** |
 | 1. Due to the survey's broad scope, it may not delve deeply into the specifics of each deep learning method. Readers seeking in-depth details on individual algorithms or architectures might need to refer to the sources for more detailed insights. |
 | 2. The survey's effectiveness relies on the completeness and accuracy of the literature it covers. If there are gaps or biases in the selected literature, the survey's conclusions and insights may be affected. |
+
+### Research Paper 5: 
+
+| **Title of Paper:** Context-Aware Social Media User Sentiment Analysis |
+| --- |
+| **Name of Authors:** | 
+| 1. Bo Liu |
+| 2. Shijiao Tang |
+| 3. Xiangguo Sun |
+| 4. Qiaoyun Chen |
+| 5. Jiuxin Cao |
+| 6. Junzhou Luo |
+| 7. Shanshan Zhao |
+||
+| **Year of Publication:** |
+| August 2020 |
+||
+| **Algorithm Used:** |
+| The paper likely employs a context-aware approach for sentiment analysis on social media. Specific algorithms are not mentioned, but context-aware sentiment analysis often involves the integration of machine learning techniques, natural language processing (NLP), and potentially deep learning methods to understand sentiment in the context of user interactions and the content of social media posts. |
+||
+| **Methodology Used:** |
+| 1. Context Identification: Identification of contextual elements within social media posts, such as user interactions, historical posts, and topical information. |
+| 2. Sentiment Analysis Models: Utilization of sentiment analysis models tailored for social media data, considering the contextual information identified. |
+| 3. Feature Engineering: Extracting relevant features from social media data, including linguistic features, user interaction patterns, and temporal factors. |
+| 4. Context Integration: Integration of contextual information into the sentiment analysis model to enhance the accuracy of sentiment predictions. |
+||
+| **Advantages:** |
+| 1. The context-aware approach is likely to enhance sentiment analysis accuracy by considering the surrounding context of social media posts. This is particularly beneficial for understanding nuanced sentiments. |
+| 2. The inclusion of user interactions and historical context provides a more nuanced understanding of individual users' sentiments, contributing to more personalized sentiment analysis. |
+||
+| **Disadvantages:** |
+| 1. Identifying and extracting relevant contextual information from social media data can be challenging, especially given the unstructured and noisy nature of user-generated content. |
+| 2. Depending on the complexity of the context-aware models used, there might be increased computational demands, potentially limiting scalability. |
