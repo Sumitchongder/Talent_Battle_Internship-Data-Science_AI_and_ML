@@ -251,3 +251,38 @@ TNet - Transformation network. |
 | 1. The effectiveness of sentiment analysis models depends on the representativity of the training data. If the dataset is biased or not representative of diverse cultural perspectives, the model's performance may be compromised. |
 | 2. Deep learning models can be challenging to interpret, making it difficult to understand the exact features driving the sentiment analysis predictions, especially in cross-cultural contexts. |
 | 3. The paper does not explicitly mention any disadvantages of the methodology used. However, one potential disadvantage could be that fine-tuning BERT models requires significant computational resources and time. Additionally, handling unbalanced datasets can be challenging and may not always result in optimal performance. |
+
+### Research Paper 9: 
+
+| **Title of Paper:** LD-MAN: Layout-Driven Multimodal Attention Network for Online News Sentiment Recognition |
+| --- |
+| **Name of Authors:** | 
+| 1. Wenya Guo |
+| 2. Ying Zhang |
+| 3. Xiangrui Cai |
+| 4. Lei Meng |
+| 5. Jufeng Yang |
+| 6. Xiaojie Yuan |
+||
+| **Year of Publication:** |
+| 2020 |
+||
+| **Algorithm Used:** |
+| The paper introduces LD-MAN, a Layout-Driven Multimodal Attention Network, suggesting the integration of multimodal attention mechanisms for online news sentiment recognition. The authors used the BERT model for multi-label sentiment analysis in code-switching text. |
+||
+| **Methodology Used:** |
+| The authors fine-tuned BERT for better performance on multi-label sentiment analysis in code-switching text. They compared the performance of different public BERT pre-trained models and different parameters. To process the unbalanced dataset better, the methods of data augmentation, undersampling, and ensemble learning were used. The procedure used is as follows: |
+| 1. Data Representation: Extracting features from the layout and content of online news articles, incorporating both visual and textual information. |
+| 2. Multimodal Attention Mechanism: Implementing attention mechanisms that dynamically weigh the importance of different modalities (e.g., text, images, layout) in sentiment analysis. |
+| 3. Sentiment Recognition Model: Developing a sentiment recognition model, possibly utilizing recurrent neural networks (RNNs), convolutional neural networks (CNNs), or transformer-based architectures. |
+| 4. Layout-Driven Approach: Incorporating information from the layout of news articles to capture the spatial relationships between textual and visual elements. |
+||
+| **Advantages:** |
+| 1. The use of BERT pre-trained models helped overcome the challenge of detecting emotions in code-switching text, as these models have learned a large amount of semantic information in both languages. The use of a single BERT model to predict the possibility of all the emotions helped us learn the relationship between labels. The method of data augmentation, undersampling, and ensemble learning helped process the unbalanced dataset better. |
+| 2. The methodology leverages both textual and visual modalities, capturing a richer representation of online news articles for sentiment analysis. |
+| 3. The layout-driven approach considers spatial context, enabling the model to understand the relationships between different elements within the news articles, potentially enhancing sentiment recognition. |
+||
+| **Disadvantages:** |
+| 1. The paper does not explicitly mention any disadvantages of the methodology used. However, one potential disadvantage could be that fine-tuning BERT models requires significant computational resources and time. Additionally, handling unbalanced datasets can be challenging and may not always result in optimal performance. |
+| 2. Handling multimodal data, especially with layout information, might introduce complexities in data preprocessing and model training. |
+| 3. The use of attention mechanisms and complex neural network architectures may pose challenges in interpreting the model's decisions and understanding the features contributing to sentiment predictions. |
