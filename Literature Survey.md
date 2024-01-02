@@ -6,7 +6,11 @@
 | **Title of Paper:** Sentiment Analysis on Social Media for Emotion Classification |
 | --- |
 | **Name of Authors:** | 
-| Dilesh Tanna; Manasi Dudhane; Amrut Sardar; Prof. Kiran Deshpande; Prof. Neha Deshmukh |
+| 1. Dilesh Tanna |
+| 2. Manasi Dudhane |
+| 3. Amrut Sardar |
+| 4. Prof. Kiran Deshpande |
+| 5. Prof. Neha Deshmukh |
 ||
 | **Year of Publication:** |
 | The paper was published in the 2020 4th International Conference on Intelligent Computing and Control Systems (ICICCS) |
@@ -28,7 +32,9 @@
 | **Title of Paper:** Transformer-based deep learning models for the sentiment analysis of social media data |
 | --- |
 | **Name of Authors:** | 
-| Sayyida Tabinda Kokab; Sohail Asghar; Shehneela Naz |
+| 1. Sayyida Tabinda Kokab |
+| 2. Sohail Asghar |
+| 3. Shehneela Naz |
 ||
 | **Year of Publication:** |
 | July 2022 |
@@ -52,7 +58,9 @@
 | **Title of Paper:** A Survey of Sentiment Analysis from Social Media Data |
 | --- |
 | **Name of Authors:** | 
-| Koyel Chakraborty; Siddhartha Bhattacharyya; Rajib Bag |
+| 1. Koyel Chakraborty |
+| 2. Siddhartha Bhattacharyya |
+| 3. Rajib Bag |
 ||
 | **Year of Publication:** |
 | 2020 |
@@ -76,7 +84,11 @@
 | **Title of Paper:** Aspect-Based Sentiment Analysis: A Survey of Deep Learning Methods |
 | --- |
 | **Name of Authors:** | 
-| Haoyue Liu; Ishani Chatterjee; MengChu Zhou; Xiaoyu Sean Lu; Abdullah Abusorrah |
+| 1. Haoyue Liu |
+| 2. Ishani Chatterjee |
+| 3. MengChu Zhou |
+| 4. Xiaoyu Sean Lu | 
+| 5. Abdullah Abusorrah |
 ||
 | **Year of Publication:** |
 | 2020 |
