@@ -81,7 +81,7 @@
 
 ### Research Paper 4: 
 
-| **Title of Paper:** Aspect-Based Sentiment Analysis: A Survey of Deep Learning Methods |
+| **Title of Paper:** Aspect-Based Sentiment Analysis - A Survey of Deep Learning Methods |
 | --- |
 | **Name of Authors:** | 
 | 1. Haoyue Liu |
@@ -167,7 +167,7 @@ TNet - Transformation network. |
 
 ### Research Paper 6: 
 
-| **Title of Paper:** COVIDSenti: A Large-Scale Benchmark Twitter Data Set for COVID-19 Sentiment Analysis |
+| **Title of Paper:** COVIDSenti - A Large-Scale Benchmark Twitter Data Set for COVID-19 Sentiment Analysis |
 | --- |
 | **Name of Authors:** | 
 | 1. Usman Naseem |
