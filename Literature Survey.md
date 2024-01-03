@@ -454,3 +454,32 @@ TNet - Transformation network. |
 | 1. One disadvantage is that handling multi-modal data introduces complexity in data processing and feature extraction. This complexity may result in increased computational overhead and resource requirements. |
 | 2. Another disadvantage is integrating information from different modalities may pose challenges, especially if there are inconsistencies or disparities between textual and non-textual content. Aligning features across modalities can be non-trivial. |
 
+### Research Paper 16: 
+
+| **Title of Paper:** Social Image Sentiment Analysis by Exploiting Multimodal Content and Heterogeneous Relations |
+| --- |
+| **Name of Authors:** | 
+| 1. Jie Xu |
+| 2. Zhoujun Li |
+| 3. Feiran Huang |
+| 4. Chaozhuo Li |
+| 5. Philip S. Yu |
+||
+| **Year of Publication:** |
+| 2020 |
+||
+| **Algorithm Used:** |
+| The paper uses parallel convolutional neural networks (CNN) and recurrent neural networks (RNN) to process text information and user attributes respectively. |
+||
+| **Methodology Used:** |
+| The paper proposes an attention-based heterogeneous relational model to improve multimodal sentiment analysis performance by incorporating rich social information. Specifically, a progressive dual attention module is proposed to capture the correlations between image and text, and then learn the joint image-text representation from the perspective of content information. 
+| A channel attention schema is proposed to highlight semantically rich image channels and a region attention schema is further designed to highlight the emotional regions based on the attended channels. |
+| After that, a heterogeneous relation network is constructed and a graph convolutional network is extended to aggregate the content information from social contexts as complements to learn high-quality representations of social images. |
+||
+| **Advantages:** |
+| 1. The proposed model is thoroughly evaluated on two benchmark datasets, and experimental results demonstrate the superiority of the proposed model. |
+| 2. The addition of user attributes can improve accuracy, and the CNN network used to extract user attribute features has fewer parameters, which proves that the algorithm can achieve high accuracy under short-term and small-scale data. |
+||
+| **Disadvantages:** |
+| 1. Handling multimodal content and heterogeneous relations introduces complexity in both feature extraction and modelling. This complexity may result in increased computational overhead and resource requirements. |
+| 2. The effectiveness of the methodology may depend on the availability and richness of multimodal data and relations. Sparse or biased data may impact the generalizability of the sentiment analysis model. |
