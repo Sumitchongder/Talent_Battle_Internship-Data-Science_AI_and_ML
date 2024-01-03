@@ -337,3 +337,36 @@ TNet - Transformation network. |
 | **Disadvantages:** |
 | 1. The effectiveness of SAKG-BERT may depend on the availability and quality of the knowledge graph used. If the knowledge graph lacks coverage or contains inaccuracies, it could impact the model's performance. |
 | 2. Integrating knowledge graphs into BERT may introduce additional computational complexity, potentially requiring substantial resources for training and inference. |
+
+### Research Paper 12: 
+
+| **Title of Paper:** Sentence-Level Aspect-Based Sentiment Analysis for Classifying Adverse Drug Reactions (ADRs) Using Hybrid Ontology-XLNet Transfer Learning |
+| --- |
+| **Name of Authors:** | 
+| 1. Asmaa Hashem Sweidan |
+| 2. Nashwa El-Bendary |
+| 3. Haytham Al-Feel |
+||
+| **Year of Publication:** |
+| 2021 |
+||
+| **Algorithm Used:** |
+| The authors used the XLNet model and a sentiment analysis knowledge graph (SAKG) for sentiment analysis. |
+| The paper introduces a hybrid approach combining ontology-based methods and transfer learning using XLNet for sentence-level aspect-based sentiment analysis. Specific algorithms for ontology-based processing and transfer learning using XLNet are employed.| 
+||
+| **Methodology Used:** |
+| The authors proposed a hybrid ontology-XLNet sentiment analysis classification approach for sentence-level aspects. The main objective of the proposed approach is discovering user social data considering the extracted in-depth inference about sentiment depending on the context. |
+| The XLNet model is utilized for extracting the neighbouring contextual meaning and concatenating it with each embedding word to produce a more comprehensive context and enhance feature extraction. Bidirectional Long Short Term Memory (Bi-LSTM) networks are used for classifying the aspects in online user reviews. The procedure followed in implementing this methodology is as follows: |
+| 1. Ontology-Based Aspect Identification: Utilizing ontology-based methods for identifying aspects related to adverse drug reactions (ADRs) in sentences. This step may involve domain-specific ontologies to capture relevant entities and relationships. |
+| 2. Transfer Learning with XLNet: Employing transfer learning with XLNet, a transformer-based language model, for sentiment analysis. Fine-tuning the pre-trained XLNet model on labelled data specific to ADRs to capture the nuanced sentiments at the sentence level. |
+| 3. Aspect-Based Sentiment Classification: Integrating the aspect identification and sentiment analysis results for classifying ADRs at the sentence level. This step may involve assigning sentiment labels to each identified aspect. |
+| 4. Evaluation Metrics: Evaluating the performance of the proposed hybrid approach using standard sentiment analysis metrics, such as accuracy, precision, recall, and F1-score. |
+||
+| **Advantages:** |
+| 1. The use of the hybrid ontology-XLNet sentiment analysis classification approach can enhance language representation and improve the interpretability of the deep learning algorithm. It can also help in sentiment analysis of online reviews, which is an important task in natural language processing. |
+| 2. The proposed approach outperformed other tested state-of-the-art related approaches by improving feature extraction of unstructured social media text and accordingly improving the overall accuracy of sentiment classification. |
+||
+| **Disadvantages:** |
+| 1. One potential disadvantage could be that fine-tuning XLNet models requires significant computational resources and time. Additionally, the construction of an SAKG and its integration with XLNet might be complex and challenging. |
+| 2. The use of domain-specific ontologies may introduce maintenance challenges, especially in dynamic domains where the ontology needs constant updating to remain relevant. |
+| 3. The success of transfer learning relies on the availability and quality of labelled data for fine-tuning the XLNet model. Limited or biased training data may impact the model's generalization. |
