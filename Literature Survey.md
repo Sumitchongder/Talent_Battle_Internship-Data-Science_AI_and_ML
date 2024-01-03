@@ -250,7 +250,7 @@ TNet - Transformation network. |
 | **Disadvantages:** |
 | 1. The effectiveness of sentiment analysis models depends on the representativity of the training data. If the dataset is biased or not representative of diverse cultural perspectives, the model's performance may be compromised. |
 | 2. Deep learning models can be challenging to interpret, making it difficult to understand the exact features driving the sentiment analysis predictions, especially in cross-cultural contexts. |
-| 3. The paper does not explicitly mention any disadvantages of the methodology used. However, one potential disadvantage could be that fine-tuning BERT models requires significant computational resources and time. Additionally, handling unbalanced datasets can be challenging and may not always result in optimal performance. |
+| 3. The disadvantage could be that fine-tuning BERT models requires significant computational resources and time. Additionally, handling unbalanced datasets can be challenging and may not always result in optimal performance. |
 
 ### Research Paper 9: 
 
@@ -283,7 +283,7 @@ TNet - Transformation network. |
 | 3. The layout-driven approach considers spatial context, enabling the model to understand the relationships between different elements within the news articles, potentially enhancing sentiment recognition. |
 ||
 | **Disadvantages:** |
-| 1. The paper does not explicitly mention any disadvantages of the methodology used. However, one potential disadvantage could be that fine-tuning BERT models requires significant computational resources and time. Additionally, handling unbalanced datasets can be challenging and may not always result in optimal performance. |
+| 1. One potential disadvantage is that fine-tuning BERT models requires significant computational resources and time. Additionally, handling unbalanced datasets can be challenging and may not always result in optimal performance. |
 | 2. Handling multimodal data, especially with layout information, might introduce complexities in data preprocessing and model training. |
 | 3. The use of attention mechanisms and complex neural network architectures may pose challenges in interpreting the model's decisions and understanding the features contributing to sentiment predictions. |
 
@@ -309,7 +309,7 @@ TNet - Transformation network. |
 | 2. Understanding sentiments on social media platforms can aid in analytics and decision-making processes. The paper highlights how sentiment analysis provides valuable insights into user opinions, trends, and public sentiment, facilitating informed decision-making for businesses or authorities. |
 ||
 | **Disadvantages:** |
-| 1. One potential disadvantage could be the challenges that arise in social media analytics, such as the vulnerability of social media due to its nature and the amount of content it contains. |
+| 1. One potential disadvantage is the challenges that arise in social media analytics, such as the vulnerability of social media due to its nature and the amount of content it contains. |
 | 2. The methodology might touch upon ethical considerations related to sentiment analysis, such as potential biases in the training data or the impact of sentiment analysis on user privacy. Ethical challenges in deploying sentiment analysis tools for security and analytics purposes may be discussed. |
 
 ### Research Paper 11: 
@@ -367,6 +367,34 @@ TNet - Transformation network. |
 | 2. The proposed approach outperformed other tested state-of-the-art related approaches by improving feature extraction of unstructured social media text and accordingly improving the overall accuracy of sentiment classification. |
 ||
 | **Disadvantages:** |
-| 1. One potential disadvantage could be that fine-tuning XLNet models requires significant computational resources and time. Additionally, the construction of an SAKG and its integration with XLNet might be complex and challenging. |
+| 1. One potential disadvantage is that fine-tuning XLNet models requires significant computational resources and time. Additionally, the construction of an SAKG and its integration with XLNet might be complex and challenging. |
 | 2. The use of domain-specific ontologies may introduce maintenance challenges, especially in dynamic domains where the ontology needs constant updating to remain relevant. |
 | 3. The success of transfer learning relies on the availability and quality of labelled data for fine-tuning the XLNet model. Limited or biased training data may impact the model's generalization. |
+
+### Research Paper 13: 
+
+| **Title of Paper:** Sentiment Analysis of Lockdown in India During COVID-19: A Case Study on Twitter |
+| --- |
+| **Name of Authors:** | 
+| 1. Prasoon Gupta |
+| 2. Sanjay Kumar |
+| 3. R. R. Suman |
+| 4. Vinay Kumar |
+||
+| **Year of Publication:** |
+| 2021 |
+||
+| **Algorithm Used:** |
+| The authors used Natural Language Processing (NLP) and machine learning classifiers for sentiment analysis. |
+| The paper employs sentiment analysis algorithms to analyze Twitter data during the COVID-19 lockdown in India. Common algorithms for sentiment analysis include machine learning approaches like Support Vector Machines (SVM), Naive Bayes, or more advanced techniques like deep learning models (e.g., LSTM, BERT). |
+||
+| **Methodology Used:** |
+| The authors performed sentiment analysis of tweets posted by Indian citizens using NLP and machine learning classifiers. From April 5, 2020, to April 17, 2020, a total of 12,741 tweets having the keywords “Indialockdown” were extracted. Data were extracted from Twitter using Tweepy API, annotated using TextBlob and VADER lexicons, and preprocessed using the natural language toolkit provided by Python. Eight different classifiers were used to classify the data. |
+||
+| **Advantages:** |
+| 1. The use of NLP and machine learning classifiers can help in understanding people’s emotions about a particular subject, product, or event. It can also aid in the detection of sentiments in online user reviews, which is an important task in natural language processing. The study concludes that the majority of Indian citizens support the decision of the lockdown implemented by the Indian government during the corona outbreak. |
+| 2. Twitter data provides a real-time source of public opinion. The methodology enables the extraction of timely insights into the sentiments of individuals during a critical period like the COVID-19 lockdown. |
+||
+| **Disadvantages:** |
+| 1. Twitter messages are constrained in length, limiting the depth of context available for sentiment analysis. Complex sentiments or opinions may not be fully captured within the character limit. |
+| 2. Twitter data may exhibit biases, as the user base may not be representative of the entire population. Biases can impact the generalizability of sentiment analysis results. |
