@@ -397,7 +397,7 @@ TNet - Transformation network. |
 ||
 | **Disadvantages:** |
 | 1. Twitter messages are constrained in length, limiting the depth of context available for sentiment analysis. Complex sentiments or opinions may not be fully captured within the character limit. |
-| 2. Twitter data may exhibit biases, as the user base may not be representative of the entire population. Biases can impact the generalizability of sentiment analysis results. |
+| 2. Twitter data may exhibit biases, as the user base may not represent the entire population. Biases can impact the generalizability of sentiment analysis results. |
 
 ### Research Paper 14: 
 
@@ -537,3 +537,31 @@ TNet - Transformation network. |
 | **Disadvantages:** |
 | 1. Social media data may be biased, as users on these platforms may not be representative of the entire electorate. Bias can impact the accuracy of sentiment analysis and, consequently, election predictions. |
 | 2. Social media posts are often short, limiting the context available for sentiment analysis. This may pose challenges when interpreting sentiments, especially for nuanced expressions related to political opinions. |
+
+### Research Paper 19: 
+
+| **Title of Paper:** Using Artificial Intelligence to Understand What Causes Sentiment Changes on Social Media |
+| --- |
+| **Name of Authors:** | 
+| 1. Fuad Alattar |
+| 2. Khaled Shaalan |
+||
+| **Year of Publication:** |
+| 2021 |
+||
+| **Algorithm Used:** |
+| The paper uses Sentiment Analysis classifiers for short texts. |
+||
+| **Methodology Used:** |
+| The paper presents a Filtered-LDA framework that significantly outperforms existing methods of interpreting sentiment variations on Twitter. |
+| The framework utilizes cascaded LDA Models with multiple settings of hyperparameters to capture candidate reasons that cause sentiment changes. |
+| Then it applies a filter to remove tweets that discuss old topics, followed by a Topic Model with a high Coherence Score to extract Emerging Topics that are interpretable by a human. |
+| Finally, a novel Twitter sentiment reasoning dashboard is introduced to display the most representative tweet for each candidate's reason. |
+||
+| **Advantages:** |
+| 1. The proposed method shows good performance in interpreting sentiment variations on Twitter. |
+| 2. The Filtered-LDA framework can capture candidate reasons that cause sentiment changes and can extract Emerging Topics that are interpretable by a human. |
+||
+| **Disadvantages:** |
+| 1. Identifying causality in sentiment changes can be complex, and the accuracy of the analysis may be influenced by the availability and quality of external data that can be correlated with sentiment shifts. |
+| 2. Social media data may be biased, and the analysis may be influenced by the demographic characteristics of the user base. Biases could impact the generalizability of findings. |
