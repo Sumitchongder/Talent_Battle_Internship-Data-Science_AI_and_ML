@@ -509,3 +509,31 @@ TNet - Transformation network. |
 | **Disadvantages:** |
 | 1. Social media data may exhibit biases, as users on these platforms may not represent the entire population. Biases can impact the generalizability of sentiment analysis results. |
 | 2. Social media posts are often short, limiting the context available for sentiment analysis. This may result in challenges when interpreting sentiments, especially for nuanced expressions. |
+
+### Research Paper 18: 
+
+| **Title of Paper:** The Emergence of Social Media Data and Sentiment Analysis in Election Prediction |
+| --- |
+| **Name of Authors:** | 
+| 1. Priyavrat Chauhan |
+| 2. Nonita Sharma |
+| 3. Geeta Sikka |
+||
+| **Year of Publication:** |
+| 2020 |
+||
+| **Algorithm Used:** |
+| The paper explores sentiment analysis algorithms and methodologies for utilizing social media data in predicting election outcomes. The paper uses Natural Language Processing (NLP) for Sentiment Analysis. |
+||
+| **Methodology Used:** |
+| The paper presents and assesses the power of various volumetric, sentiment, and social network approaches to predict crucial decisions from online social media platforms. The forecasting of election results is an application of sentiment analysis aimed at predicting the outcomes of an ongoing election by gauging the mood of the public through social media. |
+| This survey paper outlines the evaluation of sentiment analysis techniques and tries to edify the contribution of the researchers to predict election results through social media content. | 
+| This paper also gives a review of studies that tried to infer the political stance of online users using social media platforms such as Facebook and Twitter. |
+||
+| **Advantages:** |
+| 1. Leveraging social media data provides real-time insights into public sentiment regarding elections. This enables a dynamic understanding of voter opinions and potential shifts in sentiment throughout the campaign. |
+| 2. Social media data allows for the capture of granular opinions and sentiments expressed by individual users, offering a more nuanced perspective compared to traditional polling methods. |
+||
+| **Disadvantages:** |
+| 1. Social media data may be biased, as users on these platforms may not be representative of the entire electorate. Bias can impact the accuracy of sentiment analysis and, consequently, election predictions. |
+| 2. Social media posts are often short, limiting the context available for sentiment analysis. This may pose challenges when interpreting sentiments, especially for nuanced expressions related to political opinions. |
