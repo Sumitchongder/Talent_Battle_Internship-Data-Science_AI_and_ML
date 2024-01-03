@@ -398,3 +398,31 @@ TNet - Transformation network. |
 | **Disadvantages:** |
 | 1. Twitter messages are constrained in length, limiting the depth of context available for sentiment analysis. Complex sentiments or opinions may not be fully captured within the character limit. |
 | 2. Twitter data may exhibit biases, as the user base may not be representative of the entire population. Biases can impact the generalizability of sentiment analysis results. |
+
+### Research Paper 14: 
+
+| **Title of Paper:** SAKG-BERT: Enabling Language Representation With Knowledge Graphs for Chinese Sentiment Analysis |
+| --- |
+| **Name of Authors:** | 
+| 1. Ibrahim Awajan |
+| 2. Mumtazimah Mohamad |
+| 3. Ashraf Al-Quran |
+||
+| **Year of Publication:** |
+| 2021 |
+||
+| **Algorithm Used:** |
+| The paper uses the Valence Aware Dictionary and sentiment Reasoner (VADER) for sentiment reasoning. The paper introduces a sentiment analysis technique leveraging the Neutrosophic Set Theory for mining and ranking big data from online reviews. |
+||
+| **Methodology Used:** |
+| The paper introduces a novel method that integrates neutrosophic set (NS) theory into the sentiment analysis (SA) technique and multi-attribute decision-making (MADM) to rank different products based on numerous online reviews. |
+| The method consists of two parts: Determining sentiment scores of the online reviews based on the SA technique and ranking alternative products via NS theory. A neutral lexicon consisting of 228 neutral words and phrases is compiled and the VADER for sentiment reasoning is adapted to handle the neutral data. |
+| The compiled neutral lexicon, as well as the adapted VADER, are utilized to build a novel adaptation called Neutro-VADER. The Neutro-VADER assigns positive, neutral, and negative sentiment scores to each review concerning the product feature. |
+||
+| **Advantages:** |
+| 1. The proposed method shows good performance in handling the neutral data in the sentiment analysis stage as well as the ranking stage. |
+| 2. The Neutro-VADER in the proposed method can deal successfully with all types of uncertainties including indeterminacy comparable with the traditional VADER in the other methods. |
+||
+| **Disadvantages:** |
+| 1. Implementing Neutrosophic Set Theory and the associated sentiment analysis technique may introduce additional complexity, potentially requiring a steep learning curve for users unfamiliar with this mathematical framework. |
+| 2. Neutrosophic Set Theory can be challenging to interpret for users who are not well-versed in this theoretical framework. The complexity may limit the practical application and understanding of the methodology. |
