@@ -417,7 +417,7 @@ TNet - Transformation network. |
 | **Methodology Used:** |
 | The paper introduces a novel method that integrates neutrosophic set (NS) theory into the sentiment analysis (SA) technique and multi-attribute decision-making (MADM) to rank different products based on numerous online reviews. |
 | The method consists of two parts: Determining sentiment scores of the online reviews based on the SA technique and ranking alternative products via NS theory. A neutral lexicon consisting of 228 neutral words and phrases is compiled and the VADER for sentiment reasoning is adapted to handle the neutral data. |
-| The compiled neutral lexicon, as well as the adapted VADER, are utilized to build a novel adaptation called Neutro-VADER. The Neutro-VADER assigns positive, neutral, and negative sentiment scores to each review concerning the product feature. |
+| The compiled neutral lexicon and the adapted VADER are utilized to build a novel adaptation called Neutro-VADER. The Neutro-VADER assigns positive, neutral, and negative sentiment scores to each review concerning the product feature. |
 ||
 | **Advantages:** |
 | 1. The proposed method shows good performance in handling the neutral data in the sentiment analysis stage as well as the ranking stage. |
@@ -426,3 +426,31 @@ TNet - Transformation network. |
 | **Disadvantages:** |
 | 1. Implementing Neutrosophic Set Theory and the associated sentiment analysis technique may introduce additional complexity, potentially requiring a steep learning curve for users unfamiliar with this mathematical framework. |
 | 2. Neutrosophic Set Theory can be challenging to interpret for users who are not well-versed in this theoretical framework. The complexity may limit the practical application and understanding of the methodology. |
+
+### Research Paper 15: 
+
+| **Title of Paper:** Sentiment Classification Algorithm Based on Multi-Modal Social Media Text Information |
+| --- |
+| **Name of Authors:** | 
+| 1. Minzheng Xuanyuan |
+| 2. Le Xiao |
+| 3. Mengshi Duan |
+||
+| **Year of Publication:** |
+| 2021 |
+||
+| **Algorithm Used:** |
+| The paper introduces a sentiment classification algorithm based on multi-modal social media text information. |
+| The paper uses parallel convolutional neural networks (CNN) and recurrent neural networks (RNN) to process text information and user attributes respectively. |
+||
+| **Methodology Used:** |
+| The paper proposes a sentiment classification algorithm based on multi-modal social media text information. The algorithm, called User Attributes Convolutional and Recurrent Neural Network (UCRNN), combines the feature vectors of the two models for classification. The model includes twelve attributes such as user age, location, and posting time. |
+||
+| **Advantages:** |
+| 1. The addition of user attributes can improve accuracy, and the CNN network used to extract user attribute features has fewer parameters, which proves that the algorithm can achieve high accuracy under short-term and small-scale data. 
+| 2. The classification accuracy can reach 90.2%, which is state-of-the-art in short-term and small-scale data sentiment classification. |
+||
+| **Disadvantages:** |
+| 1. One disadvantage is that handling multi-modal data introduces complexity in data processing and feature extraction. This complexity may result in increased computational overhead and resource requirements. |
+| 2. Another disadvantage is integrating information from different modalities may pose challenges, especially if there are inconsistencies or disparities between textual and non-textual content. Aligning features across modalities can be non-trivial. |
+
