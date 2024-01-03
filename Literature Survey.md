@@ -483,3 +483,29 @@ TNet - Transformation network. |
 | **Disadvantages:** |
 | 1. Handling multimodal content and heterogeneous relations introduces complexity in both feature extraction and modelling. This complexity may result in increased computational overhead and resource requirements. |
 | 2. The effectiveness of the methodology may depend on the availability and richness of multimodal data and relations. Sparse or biased data may impact the generalizability of the sentiment analysis model. |
+
+### Research Paper 17: 
+
+| **Title of Paper:** Social Media Sentiment Analysis Based on COVID-19 |
+| --- |
+| **Name of Authors:** | 
+| 1. László Nemes |
+| 2. Attila Kiss |
+||
+| **Year of Publication:** |
+| 14 Jul 2020 |
+||
+| **Algorithm Used:** |
+| The paper uses Natural Language Processing and Sentiment Classification using a Recurrent Neural Network. |
+||
+| **Methodology Used:** |
+| The paper concludes and analyses the sentiments and manifestations (comments, hashtags, posts, tweets) of the users of the Twitter social media platform, based on the main trends (by keyword, which is mostly the ‘covid’ and coronavirus theme in this article) with Natural Language Processing and with Sentiment Classification using Recurrent Neural Network. |
+| The trained model works much more accurately, with a smaller margin of error, in determining emotional polarity in today’s ‘modern’ often with ambiguous tweets. |
+||
+| **Advantages:** |
+| 1. The use of Natural Language Processing and Sentiment Classification using Recurrent Neural Network for sentiment analysis of social media data related to COVID-19 can provide valuable insights into public sentiment and response to the pandemic. |
+| 2. The methodology allows for the extraction of real-time insights into public sentiment regarding COVID-19. This is particularly valuable for understanding how sentiments evolve during different phases of the pandemic. |
+||
+| **Disadvantages:** |
+| 1. Social media data may exhibit biases, as users on these platforms may not represent the entire population. Biases can impact the generalizability of sentiment analysis results. |
+| 2. Social media posts are often short, limiting the context available for sentiment analysis. This may result in challenges when interpreting sentiments, especially for nuanced expressions. |
