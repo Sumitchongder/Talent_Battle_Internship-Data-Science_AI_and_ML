@@ -579,11 +579,11 @@ TNet - Transformation network. |
 | 2020 |
 ||
 | **Algorithm Used:** |
-| The paper uses a Convolutional Neural Network (CNN) for Sentiment Analysis. The paper employs visual sentiment analysis algorithms and active learning techniques. Specific algorithms for visual sentiment analysis may include computer vision models like active learning strategies for selecting informative data points. |
+| The paper uses a Convolutional Neural Network (CNN) for Sentiment Analysis. The paper employs visual sentiment analysis algorithms and active learning techniques. Specific algorithms for visual sentiment analysis include computer vision models like Convolutional Neural Networks (CNN) and active learning strategies for selecting informative data points. |
 ||
 | **Methodology Used:** |
 | The paper proposes a novel active learning framework, which uses a few labelled training samples to achieve an effective sentiment analysis model. A new branch named “texture module” is attached to the traditional CNN. |
-| The effective vector will be obtained by computing inner products of feature maps from different convolutional blocks in this branch1. This vector is utilized to distinguish affective images. |
+| The effective vector will be obtained by computing the inner products of feature maps from different convolutional blocks in this branch. This vector is utilized to distinguish affective images. |
 | The query strategy is formed by the classification scores from both the traditional CNN and the texture module. Samples obtained by utilizing the query strategy are used to train the model. |
 ||
 | **Advantages:** |
