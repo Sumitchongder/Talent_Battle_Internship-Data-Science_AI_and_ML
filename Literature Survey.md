@@ -565,3 +565,31 @@ TNet - Transformation network. |
 | **Disadvantages:** |
 | 1. Identifying causality in sentiment changes can be complex, and the accuracy of the analysis may be influenced by the availability and quality of external data that can be correlated with sentiment shifts. |
 | 2. Social media data may be biased, and the analysis may be influenced by the demographic characteristics of the user base. Biases could impact the generalizability of findings. |
+
+### Research Paper 20: 
+
+| **Title of Paper:** Visual Sentiment Analysis with Active Learning |
+| --- |
+| **Name of Authors:** | 
+| 1. Jie Chen |
+| 2. Qirong Mao |
+| 3. Luoyang Xue |
+||
+| **Year of Publication:** |
+| 2020 |
+||
+| **Algorithm Used:** |
+| The paper uses a Convolutional Neural Network (CNN) for Sentiment Analysis. The paper employs visual sentiment analysis algorithms and active learning techniques. Specific algorithms for visual sentiment analysis may include computer vision models like active learning strategies for selecting informative data points. |
+||
+| **Methodology Used:** |
+| The paper proposes a novel active learning framework, which uses a few labelled training samples to achieve an effective sentiment analysis model. A new branch named “texture module” is attached to the traditional CNN. |
+| The effective vector will be obtained by computing inner products of feature maps from different convolutional blocks in this branch1. This vector is utilized to distinguish affective images. |
+| The query strategy is formed by the classification scores from both the traditional CNN and the texture module. Samples obtained by utilizing the query strategy are used to train the model. |
+||
+| **Advantages:** |
+| 1. The proposed method shows good performance in interpreting sentiment variations on Twitter. |
+| 2. The Filtered-LDA framework can capture candidate reasons that cause sentiment changes and can extract Emerging Topics that are interpretable by a human. |
+||
+| **Disadvantages:** |
+| 1. The effectiveness of active learning may be influenced by the initial sample distribution and biases. Biases in the selected initial set could impact the generalizability of the model. |
+| 2. While active learning reduces the number of labelled instances needed, the process of human labelling can still be time-consuming and may introduce subjectivity in sentiment annotation. |
