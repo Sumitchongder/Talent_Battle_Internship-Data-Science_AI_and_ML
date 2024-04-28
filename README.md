@@ -1,5 +1,7 @@
 # <ins>Talent Battle Internship - Data-Science, AI, and ML</ins>
 
+### Please refer <ins>**Twitter Sentiment Analysis.ipynb**</ins> file for the code [Jupyter Notebook File]
+
 ### Please refer <ins>**Literature Survey.md**</ins> file for the Literature Survey Documentation and Outcomes
 
 ### <ins>Steps to perform Sentiment Analysis on Twitter Sentiment Social Dataset:</ins>
