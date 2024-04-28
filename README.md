@@ -4,7 +4,7 @@
 
 ### --> Please refer <ins>**Literature Survey.md**</ins> file for the Literature Survey Documentation and Outcomes
 
-### <ins>Steps to perform Sentiment Analysis on Twitter Sentiment Social Dataset:</ins>
+## <ins>Steps to perform Sentiment Analysis on Twitter Sentiment Social Dataset:</ins>
 
 ### 1. Data Preprocessing:
 (i) Loaded the Twitter Sentiment Social dataset using Pandas.
