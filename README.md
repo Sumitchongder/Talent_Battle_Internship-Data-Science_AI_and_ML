@@ -57,9 +57,29 @@
 ### 5. Model Building:
 (i) Split the dataset into training and testing sets.
 
-(ii) Trained a Multinomial Naive Bayes (MNB) classifier as your baseline model and evaluated its accuracy.
+(ii) Trained a Multinomial Naive Bayes (MNB) classifier as a baseline model and evaluated its accuracy.
 
-![12](https://github.com/Sumitchongder/Talent_Battle_Internship-Data-Science_AI_and_ML/assets/77958774/16d9a1d0-a273-43b4-a25e-f5c6f7b925f5)
+![19](https://github.com/Sumitchongder/Talent_Battle_Internship-Data-Science_AI_and_ML/assets/77958774/618e8683-1429-4ebf-8b51-ef9bd8cb8ff9)
+
+![20](https://github.com/Sumitchongder/Talent_Battle_Internship-Data-Science_AI_and_ML/assets/77958774/51aa5458-1cba-42f3-b476-5f14dbc3c5f2)
+
+(iii) Trained a Bernoulli Naive Bayes (BNB) classifier as a baseline model and evaluated its accuracy.
+
+![21](https://github.com/Sumitchongder/Talent_Battle_Internship-Data-Science_AI_and_ML/assets/77958774/e317224b-1ef4-4d8d-addf-af1062c1d58f)
+
+![22](https://github.com/Sumitchongder/Talent_Battle_Internship-Data-Science_AI_and_ML/assets/77958774/6296e002-dfc7-4e5a-ad7a-13e0e2fee1eb)
+
+(iv) Trained a  Support Vector Machine (SVM) as a baseline model and evaluated its accuracy.
+
+![23](https://github.com/Sumitchongder/Talent_Battle_Internship-Data-Science_AI_and_ML/assets/77958774/46b70958-19a7-4423-a03c-328cc0687bd5)
+
+![24](https://github.com/Sumitchongder/Talent_Battle_Internship-Data-Science_AI_and_ML/assets/77958774/9f0c40a2-d191-4da9-8bf5-f5d3a5c7462a)
+
+(v) Trained a Logistic Regression (LR) as a baseline model and evaluated its accuracy.
+
+![25](https://github.com/Sumitchongder/Talent_Battle_Internship-Data-Science_AI_and_ML/assets/77958774/e6d0d6e1-add9-4f4b-8496-e181f433afd2)
+
+![26](https://github.com/Sumitchongder/Talent_Battle_Internship-Data-Science_AI_and_ML/assets/77958774/e84d6dc2-fcfa-408b-94bf-acd27a39efb0)
 
 ### 6. Deep Learning Models:
 (i) Built Deep learning model: a Feedforward Neural Network (FFNN).
