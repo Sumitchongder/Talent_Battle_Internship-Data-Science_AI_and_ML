@@ -17,7 +17,7 @@
 
 (iii) Visualized the distribution of sentiment labels ('positive' and 'negative') using Seaborn.
 
-![3](https://github.com/Sumitchongder/Talent_Battle_Internship-Data-Science_AI_and_ML/assets/77958774/4541bd7d-d11d-4361-ba22-7c88688d6056)
+![27](https://github.com/Sumitchongder/Talent_Battle_Internship-Data-Science_AI_and_ML/assets/77958774/72ab38ff-d093-416b-9478-95089b2bb38f)
 
 (iv) Reviewed the first few reviews and their corresponding sentiments to get a sense of the data.
 
